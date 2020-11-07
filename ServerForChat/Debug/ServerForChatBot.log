@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (ServerForChatBot.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  ServerForChat.cpp
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(328,68): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              T=uint64_t
+          ]
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              T=uint64_t
+          ]
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(406): message : во время компиляции функции-члена класс шаблон "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : выполняется компиляция ссылки на экземпляр шаблон функции "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(234): message : во время компиляции функции-члена класс шаблон "uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(389): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\App.h(93): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketContext<false,true>"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\App.h(87): message : во время компиляции функции-члена класс шаблон "uWS::TemplatedApp<false>::~TemplatedApp(void)"
+C:\Users\Ivan\source\repos\ServerForChatBot\ServerForChatBot\ServerForChat.cpp(150): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::TemplatedApp<false>::~TemplatedApp(void)"
+C:\Users\Ivan\source\repos\ServerForChatBot\ServerForChatBot\ServerForChat.cpp(81): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::TemplatedApp<false>"
+C:\dev\vcpkg\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(332,64): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+     Создается библиотека C:\Users\Ivan\source\repos\ServerForChatBot\Debug\ServerForChat.lib и объект C:\Users\Ivan\source\repos\ServerForChatBot\Debug\ServerForChat.exp
+  ServerForChatBot.vcxproj -> C:\Users\Ivan\source\repos\ServerForChatBot\Debug\ServerForChat.exe
